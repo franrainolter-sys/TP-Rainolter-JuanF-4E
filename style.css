@@ -1,0 +1,98 @@
+body {
+    background-color: #f4ece1; 
+    color: #2c1e16;
+    font-family: Georgia, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #6b2737;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header img.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+header h1 {
+    color: #fdf8f2; 
+    margin: 0;
+}
+
+nav {
+    background-color: #dfd1be; 
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav li {
+    margin-bottom: 0;
+}
+
+/* Estilo de botones para la barra de navegación */
+nav a {
+    display: inline-block;
+    background-color: #6b2737;
+    color: #fdf8f2;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #461722;
+}
+
+main {
+    background-color: #fdf8f2; 
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #6b2737;
+}
+
+h2 {
+    border-bottom: 2px solid #c59b27;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c1e16;
+}
+
+div {
+    background-color: #efe5d8;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #6b2737;
+    color: #fdf8f2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
